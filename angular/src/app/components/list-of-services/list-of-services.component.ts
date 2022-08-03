@@ -15,6 +15,7 @@ export class ListOfServicesComponent implements OnInit {
 
   serviceTemp = new Services();
   listOfServices = null;
+  listOfServicesArea = null;
 
   constructor(private service : RegistrationService, private _router : Router) { }
 
@@ -33,14 +34,15 @@ export class ListOfServicesComponent implements OnInit {
     )
   }
 
-  getArea(){
-    this.service.getAreaServices(this.serviceTemp.area).subscribe(
+  getArea(area : string | undefined){
+    console.log("Checking For Area Value" , area);
+    this.service.getAreaServices(area).subscribe(
       (response) => {
         console.log(response);
-        this.listOfServices = response;
+        this.listOfServicesArea = response;
       },
       error => {
-        console.log("Error In getArea IN list of services component");
+        console.log("Error In getArea --> list-of-services-component.ts");
       }
     )
   }

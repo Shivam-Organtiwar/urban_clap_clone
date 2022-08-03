@@ -40,7 +40,7 @@
 
 <div class="mainDiv">
     
-    <form (ngSubmit)="getArea()">
+    <form (ngSubmit)="getArea(serviceTemp.area)">
         <input type="text" name="area" id="area" placeholder="Enter Area Name" [(ngModel)]="serviceTemp.area">
         <button type="submit">Get List Of Services In My Area</button>
     </form>
@@ -58,13 +58,13 @@
     </thead>
     
     <tbody>
-        <tr *ngFor="let l of listOfServices">
-            <td>{{l.category}}</td>
-            <td>{{l.description}}</td>
-            <td>{{l.price}}</td>
-            <td>{{l.area}}</td>
-            <td>{{l.name}}</td>
-            <td>{{l.contactNumber}}</td>
+        <tr *ngFor="let a of listOfServicesArea">
+            <td>{{a.category}}</td>
+            <td>{{a.description}}</td>
+            <td>{{a.price}}</td>
+            <td>{{a.area}}</td>
+            <td>{{a.name}}</td>
+            <td>{{a.contactNumber}}</td>
         </tr>
     </tbody>
     </table>

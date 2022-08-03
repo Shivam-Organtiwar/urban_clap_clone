@@ -8,6 +8,6 @@ import java.util.List;
 
 public interface ServiceListRepository extends JpaRepository<ServiceList, Integer> {
 
-    List<ServiceList> findByAreaContains(String area);
+    List<ServiceList> findByArea(String area);
 
 }

@@ -24,7 +24,7 @@ public class ServiceListService {
     }
 
     public List<ServiceList> exportAreaList(String area){
-        return serRepo.findByAreaContains(area);
+        return serRepo.findByArea(area);
     }
 
 }

@@ -28,6 +28,6 @@ export class RegistrationService {
   }
 
   getAreaServices(area : string | undefined) : Observable<any>{
-    return this.httpClient.get<any>("http://localhost:8080/areaList")
+    return this.httpClient.post<any>("http://localhost:8080/areaList", area);
   }
 }

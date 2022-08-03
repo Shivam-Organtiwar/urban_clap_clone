@@ -20,11 +20,11 @@ public class RegistrationController {
     private ServiceListService serviceListService;
 
 
-    @GetMapping("/areaList")
+    @PostMapping("/areaList")
     @CrossOrigin(origins = "http://localhost:4200")
-    public List<ServiceList> exportAreaList(@RequestBody ServiceList serviceList){
+    public List<ServiceList> exportAreaList(@RequestBody String areaCheck){
         List<ServiceList> serList = new ArrayList<>();
-        String areaCheck = serviceList.getArea();
+//        String areaCheck = serviceList.getArea();
         serList = serviceListService.exportAreaList(areaCheck);
         return serList;
     }
