@@ -1,0 +1,59 @@
+.email{
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 5px;
+    background-color: lightcyan;
+    color: darkslateblue;
+    margin-left: 600px;
+    margin-top: 130px;
+    display: block;
+}
+
+.password{
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 5px;
+    background-color: lightcyan;
+    color: darkslateblue;
+    margin-left: 600px;
+    margin-top: 20px;
+    display: block;
+}
+
+button{
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 5px;
+    background-color: darkturquoise;
+    color: darkblue;
+    margin-left: 600px;
+    margin-top: 40px;
+    display: block;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: dodgerblue;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+    margin-top: 100px;
+}
+
+.bg{
+    position: absolute;
+    width: 25%;
+    height: 57%;
+}
+
+.logInCustomers{
+  border: 5px outset darkblue;
+  background-color: lightgoldenrodyellow;    
+  margin-top: 100px;
+}

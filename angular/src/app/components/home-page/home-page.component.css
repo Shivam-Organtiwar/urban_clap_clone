@@ -1,0 +1,17 @@
+.mainImage{
+  position: absolute;
+  top: 70px;
+  width: 100%;
+}
+
+h1{
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: whitesmoke;
+}
+
+div{
+  background-color: black;
+}

@@ -1,0 +1,8 @@
+.divStyle{
+    border: 5px outset darkblue;
+    background-color: lightgreen;    
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    color: darkmagenta;
+}

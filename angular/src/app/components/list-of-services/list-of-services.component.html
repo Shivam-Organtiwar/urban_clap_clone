@@ -1,0 +1,73 @@
+<div class="mainDiv">
+
+<form #getList="ngForm" (ngSubmit)="getListOfServices()">
+    <button type="submit">Get List Of Services In Bangalore</button>
+</form>
+
+<!-- <form (ngSubmit)="getArea()">
+    <input type="text" name="area" id="area" placeholder="Enter Area Name" [(ngModel)]="serviceTemp.area">
+    <button type="submit">Get List Of Services In My Area</button>
+</form> -->
+
+<table>
+<thead>
+    <tr>
+        <th>Category</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Area</th>
+        <th>Name Of Service Provider</th>
+        <th>Contact Details</th>
+    </tr>
+</thead>
+
+<tbody>
+    <tr *ngFor="let l of listOfServices">
+        <td>{{l.category}}</td>
+        <td>{{l.description}}</td>
+        <td>{{l.price}}</td>
+        <td>{{l.area}}</td>
+        <td>{{l.name}}</td>
+        <td>{{l.contactNumber}}</td>
+    </tr>
+</tbody>
+</table>
+
+
+</div>
+
+
+
+<div class="mainDiv">
+    
+    <form (ngSubmit)="getArea()">
+        <input type="text" name="area" id="area" placeholder="Enter Area Name" [(ngModel)]="serviceTemp.area">
+        <button type="submit">Get List Of Services In My Area</button>
+    </form>
+    
+    <table>
+    <thead>
+        <tr>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Area</th>
+            <th>Name Of Service Provider</th>
+            <th>Contact Details</th>
+        </tr>
+    </thead>
+    
+    <tbody>
+        <tr *ngFor="let l of listOfServices">
+            <td>{{l.category}}</td>
+            <td>{{l.description}}</td>
+            <td>{{l.price}}</td>
+            <td>{{l.area}}</td>
+            <td>{{l.name}}</td>
+            <td>{{l.contactNumber}}</td>
+        </tr>
+    </tbody>
+    </table>
+    
+    
+    </div>

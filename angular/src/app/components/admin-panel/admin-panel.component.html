@@ -1,0 +1,15 @@
+<div class="formStyle">
+
+<form #serviceDetails="ngForm" (ngSubmit)="updateServices()">
+<input type="text" name="category" id="category" placeholder="Service You Provide" [(ngModel)]="serviceProvider.category" class="category">
+<input type="text" name="description" id="description" placeholder="Description Of The Service" [(ngModel)]="serviceProvider.description" class="description">
+<input type="number" name="price" id="price" placeholder="Enter Price" [(ngModel)]="serviceProvider.price" class="price">
+<input type="text" name="area" id="area" placeholder="Enter The Area" [(ngModel)]="serviceProvider.area" class="area"> 
+<input type="text" name="name" id="name" placeholder="Enter Your Name" [(ngModel)]="serviceProvider.name" class="name">
+<input type="number" name="contactNumber" id="contactNumber" placeholder="Enter Your Contact No" [(ngModel)]="serviceProvider.contactNumber" class="contactNumber">
+
+
+<button type="submit">Add Your Services</button>
+</form>
+
+</div>

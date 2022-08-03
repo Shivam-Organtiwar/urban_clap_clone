@@ -1,0 +1,87 @@
+.category{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 5px;
+    background-color: lightcyan;
+    color: darkslateblue;
+    margin-left: 600px;
+    margin-top: 130px;
+    display: block;
+}
+
+.description{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 5px;
+    background-color: lightcyan;
+    color: darkslateblue;
+    margin-left: 600px;
+    margin-top: 15px;
+    display: block;
+}
+
+
+.price{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 5px;
+    background-color: lightcyan;
+    color: darkslateblue;
+    margin-left: 600px;
+    margin-top: 15px;
+    display: block;
+}
+
+
+.area{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 5px;
+    background-color: lightcyan;
+    color: darkslateblue;
+    margin-left: 600px;
+    margin-top: 15px;
+    display: block;
+}
+
+
+.name{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 5px;
+    background-color: lightcyan;
+    color: darkslateblue;
+    margin-left: 600px;
+    margin-top: 15px;
+    display: block;
+}
+
+
+.contactNumber{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 5px;
+    background-color: lightcyan;
+    color: darkslateblue;
+    margin-left: 600px;
+    margin-top: 15px;
+    display: block;
+}
+
+button{
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 5px;
+    background-color: darkturquoise;
+    color: darkblue;
+    margin-left: 600px;
+    margin-top: 40px;
+    display: block;
+}
+
+.formStyle{
+    border: 5px outset darkmagenta;
+  background-color: lemonchiffon;    
+  text-align: center;
+}
+
